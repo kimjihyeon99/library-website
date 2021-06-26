@@ -1,0 +1,93 @@
+/*전체 링크 태그 설정*/
+a {
+    text-decoration: none !important;
+    text-align: center !important;
+    color: #000000 !important;
+}
+
+ /*전체 리스트 스타일 : 없음*/
+li {
+    list-style: none;
+}
+
+/*메뉴바 스타일*/
+#header {
+    width: 100%;
+    padding-top: 60px;
+}
+
+#manu_bar {
+    clear: both;
+
+    float: left;
+    width: inherit;
+    height: 60px;
+    outline: 1px solid #9D94D7;
+}
+
+#manu_bar ul {
+    list-style: none;
+    width: inherit;
+    margin: 0;
+    padding: 0;
+    background-color: #9D94D7;
+    overflow: hidden;
+ }
+  
+#manu_bar ul li {
+    float: left;
+    width: 25%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    background: #9D94D7;
+}
+
+/*로그인 상태 박스 스타일*/
+#login_status {
+    float: right;
+    margin-bottom: 20px;
+}
+
+
+#userid, #logout_btn {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+/*검색 바 스타일*/
+#search_bar{
+    padding-top: 10px;
+    padding-left: 40px;
+    width: 1100px;
+    height: 110px;
+    background-color: #9D94D7;
+
+}
+
+#input_bar{
+    margin-top: 12px;
+    margin-right: 10px;
+    width: 600px;
+    height: 45px;
+
+}
+
+#search_btn {
+    margin-top: 12px;
+    font-size: 25px;
+    padding: auto;
+    background-color: #63559D;
+
+}
+
+/*컨테이너설정*/
+.container{
+    clear: both;
+    margin-top: 200px;
+}
+
+/*book list 스타일*/
+
+

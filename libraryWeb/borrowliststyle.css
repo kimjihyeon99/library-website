@@ -1,0 +1,122 @@
+/*전체 링크 태그 설정*/
+a {
+    text-decoration: none !important;
+    text-align: center !important;
+    color: #000000 !important;
+}
+
+ /*전체 리스트 스타일 : 없음*/
+li {
+    list-style: none;
+}
+
+/*메뉴바 스타일*/
+#header {
+    width: 100%;
+    padding-top: 60px;
+}
+
+#manu_bar {
+    clear: both;
+
+    float: left;
+    width: inherit;
+    height: 60px;
+    outline: 1px solid #9D94D7;
+}
+
+#manu_bar ul {
+    list-style: none;
+    width: inherit;
+    margin: 0;
+    padding: 0;
+    background-color: #9D94D7;
+    overflow: hidden;
+ }
+  
+#manu_bar ul li {
+    float: left;
+    width: 25%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    background: #9D94D7;
+}
+
+/*로그인 상태 박스 스타일*/
+#login_status {
+    float: right;
+    margin-bottom: 20px;
+}
+
+
+#userid, #logout_btn {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+/*title style*/
+#sub_title{
+    clear: both;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+/*컨테이너설정*/
+.container{
+    clear: both;
+    margin-top: 20px;
+}
+
+/*submenubar*/
+.sub_menubar{
+    width: 1156px;
+    height: 54px;
+    padding-top: 2.5px;
+    background-color: #9D94D7;
+}
+
+
+.sub_menubar ul {
+    list-style: none;
+    width: inherit;
+    margin: 0;
+    padding: 0;
+    background-color: #9D94D7;
+    overflow: hidden;
+ }
+  
+.sub_menubar ul li {
+    float: left;
+    width: 25%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    background: #9D94D7;
+}
+
+
+
+/*table 스타일*/
+.searchinfo{
+    clear: both;
+}
+
+.searchTable{
+    border-collapse: collapse;
+    margin-top: 40px;
+    width: 89%;
+    border: 1px solid #444444;
+}
+
+.searchTable th, .searchTable td {
+    border: 1px solid #444444;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.searchTable thead{
+    background-color: #D6CEE7;
+}

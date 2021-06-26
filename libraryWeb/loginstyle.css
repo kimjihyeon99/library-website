@@ -1,0 +1,102 @@
+/*전체 링크 태그 설정*/
+a {
+    text-decoration: none !important;
+    text-align: center !important;
+    color: #000000 !important;
+}
+
+ /*전체 리스트 스타일 : 없음*/
+li {
+    list-style: none;
+}
+
+/*메뉴바 스타일*/
+#header {
+    width: 100%;
+    padding-top: 60px;
+}
+
+#manu_bar {
+    float: left;
+    width: inherit;
+    height: 60px;
+    outline: 1px solid #9D94D7;
+}
+
+#manu_bar ul {
+    list-style: none;
+    width: inherit;
+    margin: 0;
+    padding: 0;
+    background-color: #9D94D7;
+    overflow: hidden;
+ }
+  
+#manu_bar ul li {
+    float: left;
+    width: 25%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    background: #9D94D7;
+}
+
+/*로그인 박스 스타일*/
+#login_box{
+    clear: both;
+    position: absolute;
+    width: 735px;
+    height: 356px;
+    left: 309px;
+    top: 355px;
+
+    background: #9D94D7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form {
+    font-size: 1.3em;
+    width: 75%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+  
+form label {
+    margin: 10px;
+} 
+
+form input{
+    border:none;
+    padding: 10px;
+
+}
+
+#customerNumber {
+    margin-left: 8px;
+    width: 311px;
+    height: 48px;
+
+    background: #FFFFFF;
+}
+
+#password{
+    margin-left: 8px;
+    width: 311px;
+    height: 48px;
+
+    background: #FFFFFF;
+}
+
+
+#login_btn{
+    margin-left: 115px;
+
+    width: 311px;
+    height: 48px;
+
+    background: #63559D;
+}
+
+
